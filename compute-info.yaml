@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Compute_test
+  description: |
+    Compute test repository to check the system.
+links:
+    - title: Website
+      url: www.ya.ru
+    - title: Documentation
+      url: www.ya.ru
+    - title: Storybook
+      url: www.ya.ru
+    - title: Discord Chat
+      url: www.ya.ru
+spec:
+  type: library
+  owner: PL
+  lifecycle: experimental
