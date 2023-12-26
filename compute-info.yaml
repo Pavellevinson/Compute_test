@@ -1,19 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Compute_test
+  name: backstage123
   description: |
-    Compute test repository to check the system.
-links:
+   123 Backstage is an open-source developer portal that puts the developer experience first.
+  links:
     - title: Website
-      url: www.ya.ru
+      url: http://backstage.io
     - title: Documentation
-      url: www.ya.ru
+      url: https://backstage.io/docs
     - title: Storybook
-      url: www.ya.ru
+      url: https://backstage.io/storybook
     - title: Discord Chat
-      url: www.ya.ru
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
 spec:
   type: library
-  owner: PL
+  owner: CNCF
   lifecycle: experimental
