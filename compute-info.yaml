@@ -18,6 +18,6 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://cloud.yandex.ru/ru/
 spec:
-  type: library
-  owner: CNCF
+  type: service
+  owner: pmlevinson
   lifecycle: experimental
