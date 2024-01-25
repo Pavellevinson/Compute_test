@@ -6,11 +6,11 @@ metadata:
     Compute-api test file
   links:
     - title: Website
-      url: www.yandex.ru
+      url: http://www.yandex.ru
     - title: Documentation
-      url: wiki.com
+      url: http://wiki.com
     - title: Storybook
-      url: www.yandex.ru
+      url: http://www.yandex.ru
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
   annotations:
