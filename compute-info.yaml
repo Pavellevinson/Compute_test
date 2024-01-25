@@ -1,22 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage123
+  name: Compute YC
   description: |
-   123 Backstage is an open-source developer portal that puts the developer experience first.
+   Compute YC test service
   links:
     - title: Website
-      url: http://backstage.io
+      url: https://cloud.yandex.ru/ru/
     - title: Documentation
-      url: https://backstage.io/docs
+      url: https://cloud.yandex.ru/ru/docs
     - title: Storybook
-      url: https://backstage.io/storybook
+      url: https://cloud.yandex.ru/ru/solutions?category=industry
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
   annotations:
-    github.com/project-slug: backstage/backstage
+    github.com/project-slug: Pavellevinson/Compute_test
     backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://backstage.io
+    lighthouse.com/website-url: https://cloud.yandex.ru/ru/
 spec:
   type: library
   owner: CNCF
