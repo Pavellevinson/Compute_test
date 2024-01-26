@@ -4,5 +4,5 @@ metadata:
   name:  mdb_system
   description: MDB system 
 spec:
-  owner: pmlevinson
+  owner: Pavellevinson
   domain: Yandex_Cloud
