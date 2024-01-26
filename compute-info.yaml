@@ -21,3 +21,9 @@ spec:
   type: service
   owner: pmlevinson
   lifecycle: experimental
+  system: Compute_System
+  dependsOn:
+    - resource:Logbrocker-db
+  providesApis:
+    - Compute-api
+  
