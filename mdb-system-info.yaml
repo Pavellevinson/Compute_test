@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name:  mdb_system
+  description: MDB system 
+spec:
+  owner: pmlevinson
+  domain: Yandex_Cloud
