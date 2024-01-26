@@ -19,7 +19,7 @@ metadata:
     lighthouse.com/website-url: https://cloud.yandex.ru/ru/
 spec:
   type: service
-  owner: pmlevinson
+  owner: Pavellevinson
   lifecycle: experimental
   system: Compute_System
   dependsOn:
