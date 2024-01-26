@@ -25,5 +25,5 @@ spec:
   dependsOn:
     - resource:Logbrocker-db
   providesApis:
-    - Compute-api
+    - Compute-api-1
   
