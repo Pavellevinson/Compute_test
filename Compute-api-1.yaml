@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: Compute-api-1
+  description: API with api kind
+spec:
+  type: openapi
+  lifecycle: production
+  owner: pmlevinson
+  system: Compute_System
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Tetsing API for Compute
+      license:
+        name: Unlimited
+    jsonSchemaDialect:   http://www.yandex.ru
+    servers:
+      - url: http://www.yandex.ru
+    paths:
+      /servers:
+        get:
+          summary: List all servers
+    
