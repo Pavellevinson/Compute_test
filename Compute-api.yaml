@@ -18,7 +18,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: openapi
+  type: service
   owner: pmlevinson
   lifecycle: experimental
   system: Compute_System
