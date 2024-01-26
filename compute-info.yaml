@@ -15,7 +15,7 @@ metadata:
       url: https://discord.com/invite/EBHEGzX
   annotations:
     github.com/project-slug: Pavellevinson/Compute_test
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir: /docs
     lighthouse.com/website-url: https://cloud.yandex.ru/ru/
 spec:
   type: service
