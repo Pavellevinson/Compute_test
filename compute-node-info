@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Compute_node
+  description: |
+   Compute node
+  links:
+    - title: Website
+      url: https://cloud.yandex.ru/ru/
+    - title: Documentation
+      url: https://cloud.yandex.ru/ru/docs
+    - title: Storybook
+      url: https://cloud.yandex.ru/ru/solutions?category=industry
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: Pavellevinson/Compute_test
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://cloud.yandex.ru/ru/
+spec:
+  type: service
+  owner: pmlevinson
+  lifecycle: experimental
+  system: Compute_System
+  dependsOn:
+    - resource:Logbrocker-db
+  providesApis:
+    - Compute-api
