@@ -5,5 +5,5 @@ metadata:
   description: transfers data to next systems
 spec:
   type: database
-  owner: logbrocker-team
+  owner: Pavellevinson
   system: Compute_system
