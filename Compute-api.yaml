@@ -19,6 +19,6 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
 spec:
   type: service
-  owner: pmlevinson
+  owner: Pavellevinson
   lifecycle: experimental
   system: Compute_System
