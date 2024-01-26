@@ -1,0 +1,11 @@
+site_name: 'Compute-example-docs'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
+
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
