@@ -6,7 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: pmlevinson
+  owner: Pavellevinson
   system: Compute_System
   definition: |
     openapi: "3.0.0"
