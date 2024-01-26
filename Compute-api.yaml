@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
   name: Compute-api
   description: 
-    Compute-api testing API description 
+    API created as a component - incorrected
   links:
     - title: Website
       url: http://www.yandex.ru
