@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pavellevinson
+spec:
+  profile:
+    displayName: Pavel Levinson
+    email: pavel.levinson@gmail.com
+  memberOf: [default]
